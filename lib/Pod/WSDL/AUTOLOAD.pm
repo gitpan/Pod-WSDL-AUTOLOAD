@@ -3,10 +3,9 @@ package Pod::WSDL::AUTOLOAD;
 use Carp;
 use strict;
 use warnings;
-use Data::Dumper;
 
 our $AUTOLOAD;
-our $VERSION = 0.01;
+our $VERSION = "0.02";
 
 sub AUTOLOAD {
     my $me     = shift;
